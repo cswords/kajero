@@ -4,7 +4,7 @@
   "description": "Interactive JavaScript notebooks with clever graphing",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoelOtter/kajero"
+    "url": "https://github.com/cswords/kajero"
   },
   "keywords": [
     "notebook"
@@ -13,12 +13,12 @@
   "bin": {
     "kajero": "bin/cmd.js"
   },
-  "author": "Joel Auterson <joel.auterson@gmail.com>",
+  "author": "Joel Auterson <joel.auterson@gmail.com>, Barry Qin <barry.cswords@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JoelOtter/kajero/issues"
+    "url": "https://github.com/cswords/kajero/issues"
   },
-  "homepage": "https://github.com/JoelOtter/kajero",
+  "homepage": "https://github.com/cswords/kajero",
   "dependencies": {
     "request": "^2.72.0"
   },
@@ -65,6 +65,8 @@
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --compilers js:babel-register --recursive \"./src/**/*-spec.js\"",
-    "test-cov": "./node_modules/.bin/gulp test-cov"
+    "test-cov": "./node_modules/.bin/gulp test-cov",
+    "build-firebase": "cp ./src/dist/*.* ./firebase/public/ && cp ./src/fonts/*.* ./firebase/public/fonts/",
+    "deploy-firebase": "cd ./firebase && firebase deploy && cd .."
   }
 }
