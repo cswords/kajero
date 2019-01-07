@@ -1,7 +1,7 @@
 ---
 title: "A sample notebook"
 author: "Joel Auterson"
-created: "Mon Apr 18 2016 21:48:01 GMT+0100 (BST)"
+created: "Tue Apr 19 2016 06:48:01 GMT+1000 (Australian Eastern Standard Time)"
 show_footer: true
 ---
 
