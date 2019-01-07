@@ -1,3 +1,11 @@
+# Fork of Kajero
+
+I am studying Machine Learning and I am trying to use Kajero to build my own online notebook to demo some browser based data manipulation and visualisation. 
+
+All credits to [JoelOtter](https://github.com/JoelOtter).
+
+\- Barry
+
 # Kajero
 
 [![npm](https://img.shields.io/npm/v/kajero.svg?maxAge=2592000)](https://www.npmjs.com/package/kajero) [![Join the chat at https://gitter.im/JoelOtter/kajero](https://badges.gitter.im/JoelOtter/kajero.svg)](https://gitter.im/JoelOtter/kajero?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
